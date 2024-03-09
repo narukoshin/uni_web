@@ -9,7 +9,7 @@
                     <div class="collapse navbar-collapse" id="navbar-collapse-1">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="?page=home?page=places">Home</a>
+                                <a class="nav-link" href="?page=home">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="?page=places">Places to visit</a>
