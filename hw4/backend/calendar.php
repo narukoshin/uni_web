@@ -96,7 +96,7 @@
                                         array_push($dayClass, "weekend");
                                         break;
                                 }
-                                if ($day == date('j') && $currMonth == date('m')) {
+                                if ($day == date('j') && $currMonth == date('m') && $currYear == date('Y')) {
                                     array_push($dayClass, "current-day");
                                 }
                                 ?>
