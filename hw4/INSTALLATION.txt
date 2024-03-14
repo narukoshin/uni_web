@@ -1,0 +1,25 @@
+### HOME WORK INSTALLATION GUIDE
+
+Install PHP Calendar Extension:
+
+Install the PHP Calendar extension if it's not already installed. 
+Depending on your operating system and package manager, you can use commands like apt, pacman, or brew to install the necessary packages. 
+For example, on Ubuntu, you can run:
+    1) pacman -Sy php-calendar;
+    2) apt install -y php-calendar.
+
+Enable PHP Calendar Extension:
+After installing the extension, enable it in your PHP configuration (php.ini). 
+Open your php.ini file in a text editor (usually located in /etc/php.ini) and add or uncomment the following line:
+extension=calendar
+
+Configure Nginx:
+Place your Nginx configuration file (hw4.conf) in the appropriate Nginx configuration directory (e.g., /etc/nginx/conf.d/ or /etc/nginx/sites-available/ depending on your Nginx setup).
+
+THIS STEP IS MANDATORY OTHERWISE THE CODE WILL NOT WORK!
+
+After placing the configuration file, make sure that there is no errors in the configuration using command "nginx -t" and then reload Nginx server (systemctl reload nginx)
+
+Change database credentials:
+
+To successfuly connect to the database, edit config.php and change database credentials to your server credentials.

@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+
+.table th {
+    font-size: 18px;
+}
+
+.table td {
+    font-size: 16px;
+}
+
+.weekend {
+    color: red !important
+}
+
+.weekend.sat {
+    color: gray !important
+}
+
+.holiday {
+    color: darkred;
+}
+
+.weekday {
+    color: #333;
+}
+
+.table tbody td {
+    cursor: pointer;
+}
+.table tbody td:hover {
+    background-color: #e1e1e1;
+}
+
+.dayNumber {
+    font-size: 21pt;
+}
+
+.current-day {
+    font-size: 26pt !important;
+    font-weight: bold;
+    color: red;
+}
